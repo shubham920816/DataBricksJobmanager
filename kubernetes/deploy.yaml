@@ -13,7 +13,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: databricksmanager
-          image: consumerhub.azurecr.io/elasticsearchsync
+          image: test.azurecr.io/databricksmanager
           resources:
             requests:
               memory: 1Gi
