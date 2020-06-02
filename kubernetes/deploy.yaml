@@ -1,0 +1,29 @@
+apiVersion: apps/v1beta1
+kind: StatefulSet
+metadata:
+  name: databricksmanager
+spec:
+  serviceName: "databricksmanager"
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        role: databricksmanager
+    spec:
+      terminationGracePeriodSeconds: 30
+      containers:
+        - name: databricksmanager
+          image: consumerhub.azurecr.io/elasticsearchsync
+          resources:
+            requests:
+              memory: 1Gi
+              cpu: 1
+            limits:
+              memory: 2Gi
+              cpu: 2
+          ports:
+            - containerPort: 5000
+      imagePullSecrets:
+        - name: acr-auth
+
+
