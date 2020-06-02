@@ -1,4 +1,12 @@
 # Rest Based Interface for interacting DataBricks Spark cluster
+## Prequistes
+
+We need to have custom util package installed.Although the same is part of dockerfile,but same can
+be installed by using below command:
+
+````
+pip install --index-url https://build:sngw4qsmpoqgicbaujzb3aa7p2la4w4cbrhsgidrynde25mg4szq@pkgs.dev.azure.com/shubhammishra920816/Artifact/_packaging/Personalpippackages-dev/pypi/simple/
+````
 
 ## Included Functionalities:
 * Cluster Creation/deletion/Stop on demand
