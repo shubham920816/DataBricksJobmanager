@@ -5,7 +5,7 @@ We need to have custom util package installed.Although the same is part of docke
 be installed by using below command:
 
 ````
-pip install --index-url https://build:sngw4qsmpoqgicbaujzb3aa7p2la4w4cbrhsgidrynde25mg4szq@pkgs.dev.azure.com/shubhammishra920816/Artifact/_packaging/Personalpippackages-dev/pypi/simple/
+pip install utils --index-url https://build:sngw4qsmpoqgicbaujzb3aa7p2la4w4cbrhsgidrynde25mg4szq@pkgs.dev.azure.com/shubhammishra920816/Artifact/_packaging/Personalpippackages-dev/pypi/simple/
 ````
 
 ## Included Functionalities:
