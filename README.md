@@ -1,4 +1,4 @@
-#Rest Based Interface for interacting DataBricks Spark cluster
+# Rest Based Interface for interacting DataBricks Spark cluster
 
 ## Included Functionalities:
 * Cluster Creation/deletion/Stop on demand
