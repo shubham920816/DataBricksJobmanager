@@ -1,4 +1,3 @@
-FROM alpine:3.7
 FROM python:3.6
 MAINTAINER shubhammishra920816@gmail.com
 USER root
